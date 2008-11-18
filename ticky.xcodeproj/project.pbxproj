@@ -16,6 +16,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* tickyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* tickyViewController.m */; };
 		85152B560ED2543800325854 /* EditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85152B550ED2543800325854 /* EditingViewController.m */; };
+		85152DD10ED27C1900325854 /* AddActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85152DD00ED27C1900325854 /* AddActivityViewController.m */; };
 		85A85D9F0EB69C6F006874DB /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A85D9E0EB69C6F006874DB /* ProjectViewController.m */; };
 		85A85DA20EB69C7B006874DB /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A85DA10EB69C7A006874DB /* ActivityViewController.m */; };
 		85A85DA50EB69C86006874DB /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A85DA40EB69C86006874DB /* TimeViewController.m */; };
@@ -42,6 +43,8 @@
 		32CA4F630368D1EE00C91783 /* ticky_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ticky_Prefix.pch; sourceTree = "<group>"; };
 		85152B540ED2543800325854 /* EditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditingViewController.h; sourceTree = "<group>"; };
 		85152B550ED2543800325854 /* EditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingViewController.m; sourceTree = "<group>"; };
+		85152DCF0ED27C1900325854 /* AddActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddActivityViewController.h; sourceTree = "<group>"; };
+		85152DD00ED27C1900325854 /* AddActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddActivityViewController.m; sourceTree = "<group>"; };
 		85A85D9D0EB69C6F006874DB /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
 		85A85D9E0EB69C6F006874DB /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
 		85A85DA00EB69C7A006874DB /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				85A85E660EB6AD9C006874DB /* AddProjectViewController.m */,
 				85152B540ED2543800325854 /* EditingViewController.h */,
 				85152B550ED2543800325854 /* EditingViewController.m */,
+				85152DCF0ED27C1900325854 /* AddActivityViewController.h */,
+				85152DD00ED27C1900325854 /* AddActivityViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				85A85DB00EB69CD0006874DB /* Time.m in Sources */,
 				85A85E670EB6AD9C006874DB /* AddProjectViewController.m in Sources */,
 				85152B560ED2543800325854 /* EditingViewController.m in Sources */,
+				85152DD10ED27C1900325854 /* AddActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

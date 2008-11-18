@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ActivityViewController : UIViewController {
+@interface ActivityViewController : UITableViewController {
+
+	UITableView *tableView;
+	UINavigationController *addNavigationController;
 
 }
+
+@property (nonatomic, retain) UINavigationController *addNavigationController;
+@property (nonatomic, retain) UITableView *tableView;
 
 @end
