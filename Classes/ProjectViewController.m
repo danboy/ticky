@@ -71,7 +71,6 @@
 // App calls this to populate the list table. It gets its number from numberOfRowsInSection
 
 - (UITableViewCell *)tableView:(UITableView *)tv cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSLog(@"here");
     UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"MyIdentifier"];
 	
     if (cell == nil) {

@@ -16,7 +16,6 @@
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {   
-	NSLog(@"here");
 	[self createEditableCopyOfDatabaseIfNeeded];
     // Call internal method to initialize database connection
 	[self initializeDatabase];
@@ -93,10 +92,11 @@
     [projects removeObject:project];
 }
 
-// Insert a new book into the database and add it to the array of books.
+// Insert a new project into the database and add it to the array of projects.
 - (void)addProject:(Project    *)project {
     // Create a new record in the database and get its automatically generated primary key.
-    [project insertIntoDatabase:database];
+    NSLog(project.name);
+	[project insertIntoDatabase:database];
     [projects addObject:project];
 }
 
