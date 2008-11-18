@@ -1,0 +1,6 @@
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/ActivityViewController.m: In function '-[ActivityViewController transitionToAddView:]':
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/ActivityViewController.m:34: error: 'addNavigationController' undeclared (first use in this function)
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/ActivityViewController.m:34: error: (Each undeclared identifier is reported only once
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/ActivityViewController.m:34: error: for each function it appears in.)
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/ActivityViewController.m: At top level:
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/ActivityViewController.m:78: error: synthesized property 'addNavigationController' must either be named the same as a compatible ivar or must explicitly name an ivar

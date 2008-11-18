@@ -1,0 +1,6 @@
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/AddActivityViewController.m:13: error: no declaration of property 'activityView' found in the interface
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/AddActivityViewController.m: In function '-[AddActivityViewController tableView:cellForRowAtIndexPath:]':
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/AddActivityViewController.m:27: error: 'activityView' undeclared (first use in this function)
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/AddActivityViewController.m:27: error: (Each undeclared identifier is reported only once
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/AddActivityViewController.m:27: error: for each function it appears in.)
+/Users/petenawara/Documents/iPhone Apps/timeaftertime/ticky/Classes/AddActivityViewController.m:34: error: 'textField' undeclared (first use in this function)
